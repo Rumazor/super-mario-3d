@@ -12,9 +12,11 @@ module.exports = {
                 'pattern-characters-red': 'url(../assets/img/pattern-characters-red.png)',
                 'pattern-yellow-dots': 'url(../assets/img/pattern-yellow-dots.png)',
                 'wave-pink': 'url(../assets/img/wave-pink.png)',
+                'pattern-black': 'url(../assets/img/pattern-characters-black.png)',
             }),
             screens:{
-                'xsm': '320px'
+                'xsm': '320px',
+                'xmd': '425px'
             }
         }
     },
