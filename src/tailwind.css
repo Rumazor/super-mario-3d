@@ -12,8 +12,13 @@
     @apply h-3 w-3 bg-blue-600 rounded-full
 }
 
+.dot-2 {
+    @apply h-3 w-3 bg-[#ffcc00] rounded-full
+}
+
+
 .button {
-    @apply xl:text-2xl my-4 inline-block py-2 px-4 lg:px-16 bg-red-500 text-white font-black border-transparent border-8 rounded-3xl hover:border-gray-200 hover:bg-white hover:text-black transition duration-200
+    @apply xl:text-2xl my-4 inline-block py-2 px-4 lg:px-16 bg-red-color text-white font-black border-transparent border-8 rounded-3xl hover:border-gray-200 hover:bg-white hover:text-black transition duration-200
 }
 
 .arrow {
@@ -25,8 +30,9 @@
 }
 
 
-
-
+.bg-red-color {
+    @apply bg-[#ee0404]
+}
 
 
 .coin-size {
