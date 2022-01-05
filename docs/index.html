@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital@1&display=swap" rel="stylesheet">
     <title>Web con TailwindCSS</title>
@@ -13,7 +14,7 @@
     <div class="w-[1920px] xsm:w-full mx-auto">
         <nav class="bg-pattern-black flex justify-between lg:justify-start items-center">
             <div class="logo p-2 md:w-1/6">
-                <img src="assets/img/logo.png" width="100" alt="">
+                <img src="assets/img/logo.png" width="100" alt="logo mario 3ds">
             </div>
             <div class="links lg:block hidden w-1/6 md:w-4/6">
                 <ul class="menu flex items-center justify-center font-Barlow gap-6 md:text-md  lg:text-xl">
@@ -39,7 +40,7 @@
 
         <section class="header">
             <img src="./assets/img/hero.jpg" alt="mario bros and bowsers fury" class="w-full">
-            <video src="./assets/videos/background.mp4" autoplay loop muted class="xmd:hidden"></video>
+            <!-- <video src="./assets/videos/background.mp4" autoplay loop muted class="xmd:hidden"></video> -->
         </section>
 
         <section>
@@ -57,14 +58,14 @@
                 <div class="left bg-character-mario bg-no-repeat bg-contain bg-top w-5/6 md:w-1/2 pt-52 mx-auto">
                     <div class="card text-center bg-white 2xl:w-5/6 mx-auto mt-72 rounded-2xl overflow-hidden xl:w-4/5">
                         <div class="cover bg-[#282828]">
-                        <video src="./assets/videos/video01.mp4" autoplay loop muted></video>
+                        <video src="./assets/videos/video01.mp4" autoplay loop muted alt="supermario 3ds"></video>
                         </div>
                         <div class="content bg-wave-pattern bg-repeat-x relative -top-3">
-                            <h3 class="font-black text-4xl py-8">Play Together</h3>
-                            <p class="text-xl font-Libre px-2">
+                            <h3 class="font-black text-2xl py-8 lg:text-4xl">Play Together</h3>
+                            <p class="text-base font-Libre px-2 lg:text-lg">
                                 Work with (or against) your friends and family*
                             </p>
-                            <a href="#" class="button group text-lg md:text-2xl">Watch Trailer
+                            <a href="#" class="button group text-xl md:text-2xl">Watch Trailer
                                 <span class="arrow  arrow-group"></span>
                             </a>
                         </div>
@@ -83,14 +84,14 @@
 
                     <div class="card text-center bg-white 2xl:w-5/6 mx-auto mt-14 rounded-2xl overflow-hidden xl:w-4/5">
                         <div class="cover bg-black">
-                        <video src="./assets/videos/video02.mp4" autoplay loop muted></video>
+                        <video src="./assets/videos/video02.mp4" autoplay loop muted alt="supermario 3ds"></video>
                         </div>
                         <div class="content bg-wave-pattern bg-repeat-x relative -top-3">
-                            <h3 class="font-black text-4xl py-8">Explore!</h3>
-                            <p class="text-xl font-Libre px-2">
+                            <h3 class="font-black text-2xl py-8 lg:text-4xl">Explore!</h3>
+                            <p class="text-base font-Libre px-2 lg:text-lg">
                                 Prowl through some popular places.
                             </p>
-                            <a href="#" class="button group  text-lg md:text-2xl ">Take a look!
+                            <a href="#" class="button group  text-xl md:text-2xl ">Take a look!
                                 <span class="arrow arrow-group"></span>
                             </a>
                         </div>
@@ -102,12 +103,12 @@
                 </div>
             </div>
             <div class="footer text-center  flex justify-center gap-9 pt-10">
-                <img src="./assets/img/coin.gif" alt="coin" class="coin-size">
-                <img src="./assets/img/coin.gif" alt="coin" class="coin-size">
-                <img src="./assets/img/coin.gif" alt="coin" class="coin-size">
-                <img src="./assets/img/coin.gif" alt="coin" class="coin-size hidden sm:block">
-                <img src="./assets/img/coin.gif" alt="coin" class="coin-size hidden sm:block">
-                <img src="./assets/img/coin.gif" alt="coin" class="coin-size hidden sm:block">
+                <img src="./assets/img/coin.gif" alt="coin mario" class="coin-size">
+                <img src="./assets/img/coin.gif" alt="coin mario" class="coin-size">
+                <img src="./assets/img/coin.gif" alt="coin mario" class="coin-size">
+                <img src="./assets/img/coin.gif" alt="coin mario" class="coin-size hidden sm:block">
+                <img src="./assets/img/coin.gif" alt="coin mario" class="coin-size hidden sm:block">
+                <img src="./assets/img/coin.gif" alt="coin mario" class="coin-size hidden sm:block">
             </div>
         </section>
 
@@ -130,12 +131,12 @@
                                 <img src="./assets/img/my-nintendo-logo.svg" alt="" class="sxm:px">
                             </div>
                             <h3 class="text-white font-Barlow text-2xl lg:text-4xl py-4">Earn Nintendo points and get theses amazing stickers!</h3>
-                        <div class="flex justify-around flex-wrap p-2">
-                            <img  src="./assets/img/sticker-cat_mario.png" alt="">
-                            <img src="./assets/img/sticker-cat_peach.png" alt="">
-                            <img src="./assets/img/sticker-luigi.png" alt="">
-                            <img src="./assets/img/sticker-toad.png" alt="">
-                            <img src="./assets/img/sticker-super_bell.png"  alt="">
+                        <div class="flex justify-center items-center  flex-wrap p-2">
+                            <img  src="./assets/img/sticker-cat_mario.png" alt="cat mario" width="80px" height="80px">
+                            <img src="./assets/img/sticker-cat_peach.png" alt="cat peach" height="80px" width="80px">
+                            <img src="./assets/img/sticker-luigi.png" alt="cat luigi" height="80px" width="80px">
+                            <img src="./assets/img/sticker-toad.png" alt="cat toad" height="80px" width="80px">
+                            <img src="./assets/img/sticker-super_bell.png"  alt="super bell mario" width="80px" height="60px">
                         </div>
                         <p class="text-white font-Libre text-base lg:text-lg py-4">
                             Get 100 platinum points if u earn them all!
@@ -146,7 +147,7 @@
                                 Terms apply.
                             </a>
                         </p>
-                        <a href="#" class="xl:text-2xl my-2 inline-block  px-4 md:p-2 lg:px-16 bg-[#282828] text-white font-black border-transparent border-8 rounded-3xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200 group ">Sign in <span class="arrow arrow-group"></span></a>
+                        <a href="#" class="text-xl xl:text-2xl my-2 inline-block  px-4 md:p-2 lg:px-16 bg-[#282828] text-white font-black border-transparent border-8 rounded-3xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200 group ">Sign in <span class="arrow arrow-group"></span></a>
                         </div>
                         <div class="dots flex justify-between p-4">
                             <div class="dot-2"></div>
@@ -155,8 +156,8 @@
                     </div>
                     <div class="hidden md:flex w-3/6 py-24  ">
                         <div class="relative ">
-                            <img src="./assets/img/peach.png" alt="" class="">
-                            <img src="./assets/img/toad.png" alt=" " class="w-full absolute md:left-36 top-2/4 lg:left-48  2xl:left-64 ">
+                            <img src="./assets/img/peach.png" alt="peach" class="">
+                            <img src="./assets/img/toad.png" alt="toad" class="w-full absolute md:left-36 top-2/4 lg:left-48  2xl:left-64 ">
                         </div>
 
                     </div>
@@ -165,20 +166,21 @@
                 <div class="right w-5/6 md:w-1/2 text-center mx-auto xsm:mt-12">
                     <h2 class="font-Barlow text-[#282828] py-8 text-2xl md:py-10 lg:text-4xl"> More fun with amiibo </h2>
 
-                    <div class="flex  justify-center py-4">
-                        <img src="./assets/img/sun.svg" alt="" class="z-10">
-                        <img src="./assets/img/cat-mario.png" alt="" class="absolute z-20 left-[120]">
+                    <div class="cats-container flex  justify-center py-4 mx-auto relative ">
+                        <img src="./assets/img/sun.svg" alt="sun">
+                        <img src="./assets/img/cat-mario.png" alt="cat mario" class="absolute cat-mario">
+                        <img src="./assets/img/cat-peach.png" alt="cat peach" class="absolute cat-peach">
                     </div>    
 
 
                     <p class="font-Libre text-base py-4 lg:text-lg">Use the adorable Feline Mario and Feline Peach amiibo ™ figures to unlock upgrades and other surprises in the game.</p>
 
-                    <a href="#" class="xl:text-2xl my-12 inline-block py-3 px-2 lg:px-16 bg-[#282828] text-white font-black border-transparent border-8 rounded-3xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200 group ">More details about amiibo<span class="arrow arrow-group"></span></a>
+                    <a href="#" class="text-xl xl:text-2xl my-12 inline-block py-3 px-2 lg:px-16 bg-[#282828] text-white font-black border-transparent border-8 rounded-3xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200 group ">More details about amiibo<span class="arrow arrow-group"></span></a>
 
                     <div class="hidden md:flex relative w-3/6 py-6 " >
-                        <img src="./assets/img/luigi.png" alt="" class="absolute max-w-[80%]  right-14 top-8  lg:top-24 lg:right-24 xl:right-40 2xl:max-w-[70%] 2xl:right-52 2xl:top-20 ">
-                        <img src="./assets/img/bell.png" alt=" " class="absolute max-w-[50%] left-24 lg:top-24 lg:left-40 xl: 2xl:">
-                        <img src="./assets/img/cat_mario.png" alt=" " class="absolute max-w-[100%] left-44 lg:top-32 lg:left-56 xl:left-72 2xl:left-80">
+                        <img src="./assets/img/luigi.png" alt="luigi" class="absolute max-w-[80%]  right-14 top-8  lg:top-24 lg:right-24 xl:right-40 2xl:max-w-[70%] 2xl:right-52 2xl:top-20 ">
+                        <img src="./assets/img/bell.png" alt="bell mario" class="absolute max-w-[50%] left-24 lg:top-24 lg:left-40 xl: 2xl:">
+                        <img src="./assets/img/cat_mario.png" alt="cat mario " class="absolute max-w-[100%] left-44 lg:top-32 lg:left-56 xl:left-72 2xl:left-80">
                     </div>
                 </div>
             </div>
@@ -204,7 +206,7 @@
                         </p>
                     </div>
                     <div class="right xl:w-2/3 lg:w-1/2">
-                        <img src="./assets/img/activity_img3.png" alt="" class="md:w-full">
+                        <img src="./assets/img/activity_img3.png" alt="kids happy" class="md:w-full">
                     </div>
                 </div>
             </section>

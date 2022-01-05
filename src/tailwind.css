@@ -38,3 +38,15 @@
 .coin-size {
     @apply w-[50px] h-[50px] sm:w-[80px] sm:h-[80px]
 }
+
+.cats-container {
+    @apply w-[317px]
+}
+
+.cat-mario {
+    @apply right-[8px]
+}
+
+.cat-peach {
+    @apply left-[-7px] top-[88px]
+}
