@@ -989,8 +989,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-/* height="607px" width="730px" */
-
 .hover\:border-gray-200:hover {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
