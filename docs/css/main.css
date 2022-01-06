@@ -454,6 +454,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .-top-3 {
   top: -0.75rem;
 }
+.right-0 {
+  right: 0px;
+}
+.bottom-0 {
+  bottom: 0px;
+}
 .top-2\/4 {
   top: 50%;
 }
@@ -474,6 +480,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .z-50 {
   z-index: 50;
+}
+.z-10 {
+  z-index: 10;
 }
 .mx-auto {
   margin-left: auto;
@@ -518,6 +527,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-6 {
   height: 1.5rem;
 }
+.h-\[800px\] {
+  height: 800px;
+}
 .w-\[1920px\] {
   width: 1920px;
 }
@@ -532,6 +544,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-4\/5 {
   width: 80%;
+}
+.w-\[260px\] {
+  width: 260px;
+}
+.w-3 {
+  width: 0.75rem;
 }
 .w-3\/6 {
   width: 50%;
@@ -630,6 +648,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-character-mario {
   background-image: url(../assets/img/character-l.png);
 }
+.bg-bowser-background {
+  background-image: url(../assets/img/background-bowsers.jpg);
+}
+.bg-pattern-arrow-blue {
+  background-image: url(../assets/img/arrow-blue.png);
+}
 .bg-pattern-white {
   background-image: url(../assets/img/pattern-characters-white.png);
 }
@@ -698,13 +722,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 .py-6 {
   padding-top: 1.5rem;
@@ -938,7 +966,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .cats-container {
-  width: 317px;
+  width: 292px;
 }
 
 .cat-mario {
@@ -949,6 +977,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   left: -7px;
   top: 88px;
 }
+
+.bowser-2xl-img {
+  width: 830px;
+}
+
+@media (min-width: 1280px) {
+
+  .bowser-2xl-img {
+    height: 707px;
+  }
+}
+
+/* height="607px" width="730px" */
 
 .hover\:border-gray-200:hover {
   --tw-border-opacity: 1;
@@ -1064,6 +1105,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-1\/2 {
     width: 50%;
+  }
+
+  .md\:w-96 {
+    width: 24rem;
   }
 
   .md\:flex-row {
@@ -1196,8 +1241,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: none;
   }
 
+  .lg\:h-\[240px\] {
+    height: 240px;
+  }
+
   .lg\:w-4\/6 {
     width: 66.666667%;
+  }
+
+  .lg\:w-\[360px\] {
+    width: 360px;
   }
 
   .lg\:w-1\/2 {
@@ -1210,6 +1263,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:p-4 {
     padding: 1rem;
+  }
+
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .lg\:px-16 {
@@ -1258,6 +1316,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xl\:w-2\/3 {
     width: 66.666667%;
+  }
+
+  .xl\:gap-40 {
+    gap: 10rem;
   }
 
   .xl\:text-2xl {

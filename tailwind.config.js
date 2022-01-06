@@ -15,6 +15,9 @@ module.exports = {
                 'wave-pink': 'url(../assets/img/wave-pink.png)',
                 'pattern-black': 'url(../assets/img/pattern-characters-black.png)',
                 'pattern-white': 'url(../assets/img/pattern-characters-white.png)',
+                'pattern-arrow-blue': 'url(../assets/img/arrow-blue.png)',
+                'dot-pattern': 'url(../assets/img/dot_pattern.png)',
+                'bowser-background': 'url(../assets/img/background-bowsers.jpg)',
             }),
             screens:{
                 'xsm': '320px',

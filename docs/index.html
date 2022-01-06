@@ -5,12 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="./assets/img/favicon.svg">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital@1&display=swap" rel="stylesheet">
     <title>Super Mario 3D World + Bowser's Fury</title>
 </head>
 <body>
+
+
+    <!-- ===== MAIN NAV ======= -->
+
     <div class="w-[1920px] xsm:w-full mx-auto">
         <nav class="bg-pattern-black flex justify-between lg:justify-start items-center">
             <div class="logo p-2 md:w-1/6">
@@ -26,6 +31,8 @@
                 </ul>
             </div>
 
+    <!-- ===== MOBILE NAV ====== -->
+
             <div class="block lg:hidden text-center w-1/6 lg:w-4/6">
                 <a href="#" class="link font-Barlow" id="mobile-menu">MENU</a>
                 <ul class="mobile-links hidden w-full font-Barlow absolute z-50 left-0 text-center bg-pattern-black ">
@@ -37,6 +44,8 @@
                 </ul>
             </div>
         </nav>
+
+        <!-- ==== HERO ==== -->
 
         <section class="header">
             <img src="./assets/img/hero.jpg" alt="mario bros and bowsers fury" class="w-full">
@@ -111,6 +120,33 @@
                 <img src="./assets/img/coin.gif" alt="coin mario" class="coin-size hidden sm:block">
             </div>
         </section>
+
+
+        <section class="bg-bowser-background bg-no-repeat relative h-[800px] dots-bg">
+            <div class="bg-pattern-arrow-blue bg-repeat-x h-6 relative -top-2"></div>
+            <section class="z-10 relative md:flex justify-between px-4 py-8 lg:container mx-auto xl:gap-40">
+                <div class="bowser-logo flex justify-center">
+                    <img src="./assets/img/bowser-logo-md.png" alt="" class="w-[260px] lg:w-[360px] lg:h-[240px]">
+                </div>
+                <div class="text-center md:w-96 px-5 lg:px-0">
+                    <h2 class="font-Barlow text-2xl lg:text-4xl text-white py-4 ">
+                        ¡Échale un vistazo a la adición al juego, que está repleta de acción y diversión!
+                    </h2>
+                    <a href="#" class="font-Barlow button group text-xl md:text-2xl center">See more details
+                        <span class="arrow arrow-group w-3"></span>
+                    </a>
+                </div>
+            </section>
+            <div class="flex justify-center absolute left-0 right-0 bottom-0">
+                <img src="./assets/img/bowser.png" alt="" class="bowser-2xl-img"  height="607px" width="730px">
+            </div>
+        </section>
+
+
+
+
+
+
 
 
 

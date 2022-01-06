@@ -40,7 +40,7 @@
 }
 
 .cats-container {
-    @apply w-[317px]
+    @apply w-[292px]
 }
 
 .cat-mario {
@@ -50,3 +50,9 @@
 .cat-peach {
     @apply left-[-7px] top-[88px]
 }
+
+.bowser-2xl-img {
+    @apply xl:h-[707px] w-[830px]
+}
+
+/* height="607px" width="730px" */
