@@ -478,6 +478,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .-top-4 {
   top: -1rem;
 }
+.-top-7 {
+  top: -1.75rem;
+}
 .z-50 {
   z-index: 50;
 }
@@ -500,9 +503,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .mt-72 {
   margin-top: 18rem;
@@ -534,9 +537,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-\[800px\] {
   height: 800px;
 }
-.h-\[166px\] {
-  height: 166px;
-}
 .w-\[1920px\] {
   width: 1920px;
 }
@@ -564,8 +564,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-2\/3 {
   width: 66.666667%;
 }
-.w-\[104px\] {
-  width: 104px;
+.w-\[166px\] {
+  width: 166px;
 }
 .max-w-\[80\%\] {
   max-width: 80%;
@@ -608,6 +608,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .gap-9 {
   gap: 2.25rem;
+}
+.gap-2 {
+  gap: 0.5rem;
 }
 .overflow-hidden {
   overflow: hidden;
@@ -750,10 +753,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
 }
 .py-10 {
   padding-top: 2.5rem;
@@ -1129,6 +1128,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     flex-direction: row;
   }
 
+  .md\:gap-10 {
+    gap: 2.5rem;
+  }
+
   .md\:p-8 {
     padding: 2rem;
   }
@@ -1312,6 +1315,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .lg\:text-\[34px\] {
+    font-size: 34px;
   }
 }
 
