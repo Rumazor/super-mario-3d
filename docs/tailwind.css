@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.link {
+    @apply text-white block py-6 font-bold hover:text-yellow-500
+}
+
+.dot {
+    @apply h-3 w-3 bg-blue-600 rounded-full
+}
+
+.dot-2 {
+    @apply h-3 w-3 bg-[#ffcc00] rounded-full
+}
+
+
+.button {
+    @apply xl:text-2xl my-4 inline-block py-2 px-4 lg:px-16 bg-red-color text-white font-[#282828] border-transparent border-8 rounded-3xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200
+}
+
+.arrow {
+    @apply w-4 h-4 inline-block border-yellow-300 border-solid border-t-[5px] border-r-[5px] transition-all transform rotate-45
+}
+
+.arrow-group {
+    @apply group-hover:border-red-500 xl:group-hover:ml-4
+}
+
+
+.bg-red-color {
+    @apply bg-[#ee0404]
+}
+
+
+.coin-size {
+    @apply w-[50px] h-[50px] sm:w-[80px] sm:h-[80px]
+}
+
+.cats-container {
+    @apply w-[292px]
+}
+
+.cat-mario {
+    @apply right-[8px]
+}
+
+.cat-peach {
+    @apply left-[-7px] top-[88px]
+}
+
+.bowser-2xl-img {
+    @apply xl:h-[707px] w-[830px]
+}
