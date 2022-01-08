@@ -19,7 +19,7 @@
     <!-- ===== MAIN NAV ======= -->
 
     <div class="w-[1920px] xsm:w-full mx-auto">
-        <nav class="bg-pattern-black flex justify-between lg:justify-start items-center">
+        <nav class="bg-pattern-black flex justify-between lg:justify-start items-center fixed w-full z-50 ">
             <div class="logo p-2 md:w-1/6">
                 <img src="assets/img/logo.png" width="100" alt="logo mario 3ds">
             </div>
@@ -60,18 +60,21 @@
         <!-- ==== HERO ==== -->
 
         <section class="header">
-            <img src="./assets/img/hero.png" alt="mario bros and bowsers fury" class="w-full">
-            <!-- <video src="./assets/videos/background.mp4" autoplay loop muted class="xmd:hidden"></video> -->
+            <picture>
+                <source media="(max-width: 600px)" srcset="./assets/img/hero-mobile.png">
+                <source media="(min-width: 800px)" srcset="./assets/img/hero.png">
+                <img srcset="./assets/img/hero.png" alt="mario bros and bowsers fury" class="w-full pt-20">
+            </picture>
         </section>
 
         <section>
             <div class="bg-wave-pattern h-6 bg-repeat-x relative -top-2"></div>
-            <div class="bg-wave-pattern-dots text-center p-4 flex md:flex-row flex-col gap-3 justify-center">
+            <div class="bg-wave-pattern-dots text-center py-6 px-12 md:p-4 flex md:flex-row flex-col gap-3 justify-center">
                 <a href="#"
-                    class="inline-block py-3 px-16 bg-[#282828] text-white font-bold border-transparent border-8 text-lg md:text-2xl rounded-3xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200 group ">Buy
+                    class="inline-block md:py-3 md:px-16 bg-[#282828] text-white font-bold border-transparent border-8 text-lg md:text-2xl rounded-3xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200 group ">Buy
                     Now <span class="arrow arrow-group"></span></a>
                 <a href="#"
-                    class="inline-block py-3 px-16 bg-red-color text-white font-bold border-transparent border-8 text-lg md:text-2xl rounded-3xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200">Watch
+                    class="inline-block md:py-3 md:px-16 bg-red-color text-white font-bold border-transparent border-8 text-lg md:text-2xl rounded-3xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200">Watch
                     Trailer</a>
             </div>
 
@@ -273,7 +276,7 @@
                             <p class=" flex flex-col py-6 px-12 md:px-18  gap-2 md:gap-4  font-Barlow text-2xl lg:text-[34px] text-center mx-auto text-white max-w-sm">
                                 Are you ready to purchase the game?
                                 <a href="#"
-                                    class="inline-block text-xl my-2 bg-[#282828] text-white font-black border-transparent border-8 rounded-2xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200">Get
+                                    class="inline-block text-xl my-2 bg-[#282828] text-white font-black border-transparent border-8 rounded-2xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200 group">Get
                                     the game<span class="arrow arrow-group"></span></a>
                             </p>
                             <div class="w-[166px] lg:w-[320px] xl:w-[166px] mx-auto flex justify-center my-8 relative">

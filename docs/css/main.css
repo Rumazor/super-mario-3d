@@ -436,6 +436,9 @@ Ensure the default browser behavior of the `hidden` attribute.
     max-width: 1536px;
   }
 }
+.fixed {
+  position: fixed;
+}
 .absolute {
   position: absolute;
 }
@@ -572,11 +575,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-\[1920px\] {
   width: 1920px;
 }
-.w-1\/6 {
-  width: 16.666667%;
-}
 .w-full {
   width: 100%;
+}
+.w-1\/6 {
+  width: 16.666667%;
 }
 .w-5\/6 {
   width: 83.333333%;
@@ -786,9 +789,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 .py-24 {
   padding-top: 6rem;
@@ -810,17 +817,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+.pt-20 {
+  padding-top: 5rem;
 }
 .pt-52 {
   padding-top: 13rem;
@@ -1223,12 +1225,26 @@ Ensure the default browser behavior of the `hidden` attribute.
     gap: 1rem;
   }
 
+  .md\:p-4 {
+    padding: 1rem;
+  }
+
   .md\:p-8 {
     padding: 2rem;
   }
 
   .md\:p-2 {
     padding: 0.5rem;
+  }
+
+  .md\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .md\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .md\:py-28 {
@@ -1567,12 +1583,5 @@ Ensure the default browser behavior of the `hidden` attribute.
   .xsm\:py-6 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-  }
-}
-
-@media (min-width: 425px) {
-
-  .xmd\:hidden {
-    display: none;
   }
 }
