@@ -18,6 +18,7 @@ module.exports = {
                 'pattern-arrow-blue': 'url(../assets/img/arrow-blue.png)',
                 'dot-pattern': 'url(../assets/img/dot_pattern.png)',
                 'bowser-background': 'url(../assets/img/background-bowsers.jpg)',
+                'span-play-button': 'url(../assets/img/play-button.svg)',
             }),
             screens:{
                 'xsm': '320px',

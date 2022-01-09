@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/dots.css">
+    <link rel="stylesheet" href="./css/modal.css">
     <link rel="shortcut icon" href="./assets/img/favicon.svg">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital@1&display=swap" rel="stylesheet">
@@ -38,6 +39,20 @@
                 </ul>
             </div>
 
+            <!-- ==== MODAL ==== -->
+            <section class="modal" id="modal">
+                <div class="modal-container bg-pattern-yellow-dots relative md:p-8">
+                    <div id="btn-cerrar" class="modal-button absolute"></div>
+                    <video id="video-mario" src="./assets/img/mario-video.mp4" width="702px" height="400px" preload controls></video>
+                </div>
+                
+
+                
+                
+            </section>
+
+
+            
             <!-- ===== MOBILE NAV ====== -->
 
             <div class="block lg:hidden text-center w-1/6 lg:w-4/6">
@@ -71,15 +86,17 @@
             <div class="bg-wave-pattern h-6 bg-repeat-x relative -top-2"></div>
             <div class="bg-wave-pattern-dots text-center py-6 px-12 md:p-4 flex md:flex-row flex-col gap-3 justify-center">
                 <a href="#"
-                    class=" font-Barlow inline-block md:py-3 md:px-16 bg-[#282828] text-white font-bold border-transparent border-8 text-lg md:text-2xl rounded-3xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200 group ">Buy
+                    class=" font-Barlow inline-block md:py-1 md:px-12 bg-[#282828] text-white font-bold border-transparent border-8 text-lg md:text-2xl rounded-3xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200 group lg:w-72">Buy
                     Now <span class="arrow arrow-group"></span></a>
-                <a href="#"
-                    class=" font font-Barlow inline-block md:py-3 md:px-16 bg-red-color text-white font-bold border-transparent border-8 text-lg md:text-2xl rounded-3xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200">Watch
-                    Trailer</a>
+                <a href="#" id="watch-trailer-btn"
+                    class="font-Barlow inline-flex items-center md:py-1 md:px-12 bg-red-color text-white font-bold border-transparent border-8 text-lg md:text-2xl rounded-3xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200">Watch
+                    Trailer<span class="inline-flex justify-center align-middle ml-2 max-w-[40px] max-h-[40px] lg:w-72" ><img src="./assets/img/play-button.svg" alt="" width="35px" height="35px"></span></a> 
             </div>
 
             <div class="bg-wave-pattern bg-repeat-x h-6 relative top-2"></div>
         </section>
+
+        
 
         <section class="bg-pattern-characters-red  py-24 md:py-28">
             <div class="lg:container 2xl:w-3/4 mx-auto md:flex gap-5 md:w-full p-3">
@@ -203,7 +220,7 @@
                                     </a>
                                 </p>
                                 <a href="#"
-                                    class="font-Barlow text-xl xl:text-2xl my-2 inline-block  px-4 md:p-2 lg:px-16 bg-[#282828] text-white font-black border-transparent border-8 rounded-2xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200 group ">Sign
+                                    class="font-Barlow text-xl xl:text-2xl my-2 inline-block  px-4 md:p-2 lg:px-12 bg-[#282828] text-white font-black border-transparent border-8 rounded-2xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200 group ">Sign
                                     in <span class="arrow arrow-group"></span></a>
                             </div>
                             <div class="dots flex justify-between p-4">
@@ -233,7 +250,7 @@
                         <p class="font-Libre text-base py-4 lg:text-lg">Use the adorable Feline Mario and Feline Peach
                             amiibo ™ figures to unlock upgrades and other surprises in the game.</p>
                         <a href="#"
-                            class="text-xl xl:text-2xl my-12 inline-block py-3 px-2 lg:px-16 bg-[#282828] text-white font-black border-transparent border-8 rounded-3xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200 group ">More
+                            class="text-xl xl:text-2xl my-12 inline-block py-3 px-2 lg:px-12 bg-[#282828] text-white font-black border-transparent border-8 rounded-3xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200 group ">More
                             details about amiibo<span class="arrow arrow-group"></span></a>
                         <div class="hidden md:flex relative w-3/6 py-6 ">
                             <img src="./assets/img/luigi.png" alt="luigi"
@@ -385,6 +402,7 @@
 
     </div>
     <script src="./js/menuButton.js"></script>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
