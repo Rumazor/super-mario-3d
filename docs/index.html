@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="./assets/img/favicon.svg">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital@1&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Super Mario 3D World + Bowser's Fury</title>
 </head>
 
@@ -58,9 +59,9 @@
             <div class="block lg:hidden text-center w-1/6 lg:w-4/6">
                 <a href="#" class="link font-Barlow" id="mobile-menu">MENU</a>
                 <ul class="mobile-links hidden w-full font-Barlow absolute z-50 left-0 text-center bg-pattern-black ">
-                    <li><a href="#" class="link">Home</a></li>
-                    <li><a href="#" class="link">Play Together</a></li>
-                    <li><a href="#" class="link">Explore</a></li>
+                    <li><a href="#" class="link">Home<span></span></a></li>
+                    <li><a href="#" class="link">Play Together<span></span></a></li>
+                    <li><a href="#" class="link">Explore<span></span></a></li>
                     <li><a href="#"
                             class=" my-4 inline-block border-4 border-yellow-400 text-white font-bold p-4 rounded-full hover:bg-white hover:text-black transition duration-200"><span
                                 class="inline-flex align-middle px-1"><img src="./assets/img/bowser-icon.svg"
@@ -89,7 +90,7 @@
                     class=" font-Barlow inline-block md:py-1 md:px-12 bg-[#282828] text-white font-bold border-transparent border-8 text-lg md:text-2xl rounded-3xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200 group lg:w-72">Buy
                     Now <span class="arrow arrow-group"></span></a>
                 <a href="#" id="watch-trailer-btn"
-                    class="font-Barlow inline-flex items-center justify-center md:py-1 md:px-12 bg-red-color text-white font-bold border-transparent border-8 text-lg md:text-2xl rounded-3xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200">Watch
+                    class="font-Barlow inline-flex items-center justify-center  md:py-1 md:px-12 bg-red-color text-white font-bold border-transparent border-8 text-lg md:text-2xl rounded-3xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200">Watch
                     Trailer<span class="inline-flex justify-center align-middle ml-2 max-w-[40px] max-h-[40px] lg:w-72" ><img src="./assets/img/play-button.svg" alt="" width="35px" height="35px"></span></a> 
             </div>
 
@@ -99,9 +100,9 @@
         
 
         <section class="bg-pattern-characters-red  py-24 md:py-28">
-            <div class="lg:container 2xl:w-3/4 mx-auto md:flex gap-5 md:w-full p-3">
-                <div class="left bg-character-mario bg-no-repeat bg-contain bg-top w-5/6 md:w-1/2 pt-52 mx-auto">
-                    <div class="card text-center bg-white 2xl:w-5/6 mx-auto mt-72 rounded-2xl overflow-hidden xl:w-4/5">
+            <div class="lg:container 2xl:w-3/4 mx-auto md:flex gap-5 md:w-full p-3" >
+                <div class="left bg-character-mario bg-no-repeat bg-contain bg-top w-5/6 md:w-1/2 pt-52 mx-auto" data-aos="fade-up">
+                    <div class="card text-center bg-white 2xl:w-5/6 mx-auto mt-72 rounded-2xl overflow-hidden xl:w-4/5" >
                         <div class="cover bg-[#282828]">
                             <video src="./assets/videos/video01.mp4" autoplay loop muted alt="supermario 3ds"></video>
                         </div>
@@ -120,7 +121,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="right w-5/6 md:w-1/2 text-center mx-auto xsm:mt-12">
+                <div class="right w-5/6 md:w-1/2 text-center mx-auto xsm:mt-12" data-aos="fade-up">
                     <h2 class="font-Barlow text-white text-[28px] md:text-[42px] md:py-10 md:text-6xl"> Available Now </h2>
 
                     <p class="font-Barlow text-white text-2xl mx-auto w-4/5 xsm:py-6 md:py-4">Team up for paws-itively
@@ -151,12 +152,12 @@
                 </div>
             </div>
             <div class="footer text-center  flex justify-center gap-9 pt-10">
-                <img src="./assets/img/coin.gif" alt="coin mario" class="coin-size">
-                <img src="./assets/img/coin.gif" alt="coin mario" class="coin-size">
-                <img src="./assets/img/coin.gif" alt="coin mario" class="coin-size">
-                <img src="./assets/img/coin.gif" alt="coin mario" class="coin-size hidden sm:block">
-                <img src="./assets/img/coin.gif" alt="coin mario" class="coin-size hidden sm:block">
-                <img src="./assets/img/coin.gif" alt="coin mario" class="coin-size hidden sm:block">
+                <img src="./assets/img/coin.gif" alt="coin mario" class="coin-size" data-aos="fade-right">
+                <img src="./assets/img/coin.gif" alt="coin mario" class="coin-size" data-aos="fade-right">
+                <img src="./assets/img/coin.gif" alt="coin mario" class="coin-size" data-aos="fade-right">
+                <img src="./assets/img/coin.gif" alt="coin mario" class="coin-size hidden sm:block" data-aos="fade-right">
+                <img src="./assets/img/coin.gif" alt="coin mario" class="coin-size hidden sm:block" data-aos="fade-right">
+                <img src="./assets/img/coin.gif" alt="coin mario" class="coin-size hidden sm:block" data-aos="fade-right">
             </div>
         </section>
 
@@ -164,7 +165,7 @@
             <div class="bg-pattern-arrow-blue bg-repeat-x h-6 relative -top-2"></div>
             <section class="z-10 relative md:flex justify-between px-4 py-8 mx-auto lg:container  xl:justify-evenly">
                 <div class="bowser-logo flex justify-center">
-                    <img src="./assets/img/bowser-logo-md.png" alt="" class="w-[260px] lg:w-[360px] lg:h-[240px]">
+                    <img src="./assets/img/bowser-logo-md.png" alt="" class="w-[260px] lg:w-[360px] lg:h-[240px]" data-aos="zoom-in">
                 </div>
                 <div class="text-center md:w-96 px-5 lg:px-0">
                     <h2 class="font-Barlow text-2xl lg:text-4xl text-white py-4 ">
@@ -175,8 +176,8 @@
                     </a>
                 </div>
             </section>
-            <div class="flex justify-center absolute left-0 right-0 bottom-0">
-                <img src="./assets/img/bowser.png" alt="" class="bowser-2xl-img" height="607px" width="730px">
+            <div class="flex justify-center absolute left-0 right-0 bottom-0" >
+                <img src="./assets/img/bowser.png" alt="" class="bowser-2xl-img" height="607px" width="730px" data-aos="zoom-in">
             </div>
         </section>
 
@@ -184,7 +185,7 @@
             <div class="bg-wave-pattern h-6 bg-repeat-x relative -top-2"></div>
             <div class="bg-pattern-white text-center p-y24 flex md:flex-row flex-col gap-3 justify-center">
                 <div class="lg:container 2xl:w-3/4 mx-auto md:flex gap-5 md:p-8 md:w-full ">
-                    <div class="left bg-top w-5/6 md:w-1/2 pt-16 mx-auto">
+                    <div class="left bg-top w-5/6 md:w-1/2 pt-16 mx-auto" data-aos="fade-up">
                         <div
                             class="card text-center bg-pattern-red-dots 2xl:w-5/6 mx-auto  rounded-2xl overflow-hidden xl:w-4/5">
                             <div class="cover bg-black">
@@ -201,14 +202,14 @@
                                     get theses amazing stickers!</h3>
                                 <div class="flex justify-center items-center  flex-wrap p-2">
                                     <img src="./assets/img/sticker-cat_mario.png" alt="cat mario" width="80px"
-                                        height="80px">
+                                        height="80px" data-aos="zoom-in">
                                     <img src="./assets/img/sticker-cat_peach.png" alt="cat peach" height="80px"
-                                        width="80px">
+                                        width="80px" data-aos="zoom-in">
                                     <img src="./assets/img/sticker-luigi.png" alt="cat luigi" height="80px"
-                                        width="80px">
-                                    <img src="./assets/img/sticker-toad.png" alt="cat toad" height="80px" width="80px">
+                                        width="80px" data-aos="zoom-in">
+                                    <img src="./assets/img/sticker-toad.png" alt="cat toad" height="80px" width="80px" data-aos="zoom-in">
                                     <img src="./assets/img/sticker-super_bell.png" alt="super bell mario" width="80px"
-                                        height="60px">
+                                        height="60px" data-aos="zoom-in">
                                 </div>
                                 <p class="text-white font-Libre text-base lg:text-lg py-4">
                                     Get 100 platinum points if u earn them all!
@@ -230,9 +231,9 @@
                         </div>
                         <div class="hidden md:flex w-3/6 py-24  ">
                             <div class="relative ">
-                                <img src="./assets/img/peach.png" alt="peach" class="">
+                                <img src="./assets/img/peach.png" alt="peach" data-aos="fade-right">
                                 <img src="./assets/img/toad.png" alt="toad"
-                                    class="w-full absolute md:left-36 top-2/4 lg:left-48  2xl:left-64 ">
+                                    class="w-full absolute md:left-36 top-2/4 lg:left-48  2xl:left-64 " data-aos="fade-right">
                             </div>
                         </div>
                     </div>
@@ -254,11 +255,11 @@
                             details about amiibo<span class="arrow arrow-group"></span></a>
                         <div class="hidden md:flex relative w-3/6 py-6 ">
                             <img src="./assets/img/luigi.png" alt="luigi"
-                                class="absolute max-w-[80%]  right-14 top-8  lg:top-24 lg:right-24 xl:right-40 2xl:max-w-[70%] 2xl:right-52 2xl:top-20 ">
+                                class="absolute max-w-[80%]  right-14 top-8  lg:top-24 lg:right-24 xl:right-40 2xl:max-w-[70%] 2xl:right-52 2xl:top-20 " data-aos="fade-right">
                             <img src="./assets/img/bell.png" alt="bell mario"
-                                class="absolute max-w-[50%] left-24 lg:top-24 lg:left-40 xl: 2xl:">
+                                class="absolute max-w-[50%] left-24 lg:top-24 lg:left-40 xl: 2xl:" data-aos="fade-right">
                             <img src="./assets/img/cat_mario.png" alt="cat mario "
-                                class="absolute max-w-[100%] left-44 lg:top-32 lg:left-56 xl:left-72 2xl:left-80">
+                                class="absolute max-w-[100%] left-44 lg:top-32 lg:left-56 xl:left-72 2xl:left-80" data-aos="fade-right">
                         </div>
                     </div>
                 </div>
@@ -290,7 +291,7 @@
                 <div class="flex flex-wrap mx-auto">
                     <div class="xl:container px-4 lg:flex items-center md:gap-10 mx-auto justify-evenly">
                         <div class="md:flex gap-30 xl:gap-40 items-center">
-                            <p class=" flex flex-col py-6 px-12 md:px-18  gap-2 md:gap-4  font-Barlow text-2xl lg:text-[34px] text-center mx-auto text-white max-w-sm">
+                            <p class=" flex flex-col py-6 px-12 md:px-18  gap-2 md:gap-4  font-Barlow text-2xl lg:text-[34px] text-center mx-auto text-white max-w-sm" data-aos="fade-up">
                                 Are you ready to purchase the game?
                                 <a href="#"
                                     class="inline-block text-xl my-2 bg-[#282828] text-white font-black border-transparent border-8 rounded-2xl hover:border-gray-200 hover:bg-white hover:text-[#282828] transition duration-200 group">Get
@@ -298,8 +299,8 @@
                             </p>
                             <div class="w-[166px] lg:w-[320px] xl:w-[166px] mx-auto flex justify-center my-8 relative">
                                 <img src="./assets/img/game-pack.png" alt="gamepack" width="132px" height="222"
-                                    class="absolute z-10 -top-7" >
-                                <img src="./assets/img/sun.svg" alt="sun" width="166px">
+                                    class="absolute z-10 -top-7" data-aos="zoom-in-up">
+                                <img src="./assets/img/sun.svg" alt="sun" width="166px" data-aos="zoom-in">
                             </div>
                         </div>
                         <div>
@@ -308,8 +309,8 @@
                             </p>
 
                             <div class=" mx-auto flex justify-center items-center gap-2 my-8 flex-wrap ">
-                                <img src="./assets/img/switch.png" alt="nintendo switch" class="" width="279px" height="117px">
-                                <img src="./assets/img/switch-lite.png" alt="switch lite" width="186px" class="h-[81px]">
+                                <img src="./assets/img/switch.png" alt="nintendo switch" class="" width="279px" height="117px" data-aos="fade-right">
+                                <img src="./assets/img/switch-lite.png" alt="switch lite" width="186px" class="h-[81px]" data-aos="fade-left">
                             </div>
                         </div>
 
@@ -403,6 +404,13 @@
     </div>
     <script src="./js/menuButton.js"></script>
     <script src="./js/modal.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 400,
+            duration: 1000
+        });
+    </script>
 </body>
 
 </html>
