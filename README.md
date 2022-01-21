@@ -1,5 +1,5 @@
 
-##  Super Mario 3DS
+##  Super Mario 3D World
 
 ### Caracteristicas
 
